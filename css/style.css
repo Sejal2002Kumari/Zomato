@@ -1,0 +1,487 @@
+body,
+button,
+input,
+input::placeholder {
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.First_Container {
+  /* background-color: red;  */
+}
+
+.header {
+  height: 90px;
+}
+
+.name_of_zomato {
+  float: left;
+  width: 20%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+
+  align-items: center;
+}
+.searchArea {
+  float: left;
+
+  width: 53.3%;
+
+  padding-left: 25px;
+  padding-top: 24px;
+}
+.controls {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px 2px #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.searchArea input {
+  padding: 14px;
+  width: 60%;
+  border: 0px solid grey;
+}
+.searchArea select {
+  padding: 14px;
+  width: 20%;
+  border: 0px solid grey;
+}
+.login {
+  float: right;
+
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+.login a {
+  font-size: 1.3em;
+  line-height: 1.5;
+  text-align: right;
+  vertical-align: middle;
+  font-weight: 300;
+  color: rgb(105, 105, 105);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  padding: 0.2rem 0.8rem;
+  text-decoration: none;
+}
+.login a:hover {
+  color: rgb(10, 10, 10);
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px 2px #ccc;
+}
+.clear {
+  clear: both;
+}
+.patna {
+}
+
+.afterHeader {
+  padding: 5px;
+}
+
+.d1 {
+  font-size: 28px;
+  float: left;
+  margin-left: 30px;
+
+  padding: 10px;
+}
+
+.d1:first-child {
+  margin-left: 70px;
+}
+
+.d1.active {
+  border-bottom: 3px solid red;
+  background-color: #c2c2c2;
+}
+
+.d1 svg {
+  color: blue;
+  background-color: rgb(252, 238, 192);
+  border-radius: 50%;
+  padding: 10px;
+}
+.d1:hover a {
+  text-decoration: none;
+}
+.d1:hover {
+  background-color: grey;
+}
+
+.d1 span {
+  font-size: 26px;
+  padding-left: 10px;
+
+  position: relative;
+  top: -8px;
+}
+
+.d1 a {
+  text-decoration: none;
+}
+
+.filterMenu {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+.filterMenu ul li {
+  float: left;
+  background-color: white;
+  color: rgb(105, 105, 105);
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+.filterMenu ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.filterMenu ul li:first-child {
+  margin-left: 70px;
+}
+
+.body1 {
+  width: 100%;
+}
+
+.body1 h1 {
+  margin-left: 50px;
+  padding: 50px;
+  color: rgb(28, 28, 28);
+  font-weight: 500;
+}
+.recipe {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.recipe a {
+  text-decoration: none;
+  color: rgb(44, 41, 41);
+  font-size: 26px;
+}
+
+.dosha {
+  float: left;
+
+  margin-left: 70px;
+}
+.dosha img {
+  border-radius: 10px;
+}
+.paratha {
+  float: left;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.paratha img {
+  border-radius: 10px;
+}
+.bhatura {
+  float: left;
+
+  margin-left: 20px;
+}
+.bhatura img {
+  border-radius: 10px;
+}
+
+.idlli {
+  float: left;
+
+  margin-left: 20px;
+}
+.idlli img {
+  border-radius: 10px;
+}
+.Restaurants_of_patna a {
+  text-decoration: none;
+  color: rgb(44, 41, 41);
+  font-size: 20px;
+}
+.Restaurants_of_patna {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hungry_house {
+  width: 320px;
+  height: 400px;
+
+  float: left;
+  padding-top: 14px;
+  padding-left: 14px;
+  border-radius: 20px;
+  margin-left: 70px;
+}
+.hungry_house:hover {
+  color: gray;
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 2px #ccc;
+}
+.imageHungry {
+  border-radius: 20px;
+}
+.hungry_house span {
+  color: rgb(196, 184, 184);
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.Chennai_express {
+  width: 320px;
+  height: 400px;
+
+  float: left;
+  padding-top: 14px;
+  padding-left: 14px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.Chennai_express span {
+  color: rgb(196, 184, 184);
+  font-size: 16px;
+  margin-right: 5px;
+}
+.Chennai_express:hover {
+  color: gray;
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 2px #ccc;
+}
+.imageexpress {
+  border-radius: 20px;
+}
+.ruchi_sweets {
+  width: 30%;
+  height: 350px;
+  border: 1px solid white;
+  float: left;
+
+  margin-left: 10px;
+  border-radius: 20px;
+
+  padding: 10px;
+}
+
+.ruchi_sweets:hover {
+  color: gray;
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 2px #ccc;
+}
+.ruchi_sweets > a > img:first-child {
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.ruchi_sweets marquee span:first-child img {
+  height: 20px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.ruchi_sweets marquee span:last-child img {
+  width: 50px;
+  height: 20px;
+}
+.ruchi_sweets marquee > span:nth-child(2) {
+  position: relative;
+  top: -5px;
+}
+
+.rating {
+  width: 35px;
+  float: right;
+  height: 18px;
+  background-color: rgb(49, 153, 49);
+  border-radius: 6px;
+
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+
+  font-weight: bold;
+}
+
+.s1 {
+  color: white;
+  font-size: 10px;
+}
+.increase {
+  padding-left: 10px;
+  float: left;
+}
+.mark {
+  float: left;
+  font-size: 16px;
+}
+.max {
+  margin-left: 15px;
+}
+.max img {
+  width: 100px;
+}
+.newspan {
+  font-size: 15px;
+  color: gray;
+}
+.newspan hr {
+  color: #c2c2c2;
+}
+
+.top_brands {
+  padding: 20px;
+}
+
+.top_brands img {
+  border-radius: 20px;
+}
+.top_brands a {
+  float: left;
+  margin-left: 30px;
+}
+.popular {
+  width: 300px;
+  height: 70px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular:hover {
+  box-shadow: 4px 4px 10px 2px #c1c1c1;
+}
+
+.popular a {
+  text-decoration: none;
+}
+
+.explore {
+  background-color: whitesmoke;
+}
+
+p {
+  color: rgb(131, 124, 124);
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+p a {
+  text-decoration: none;
+  color: gray;
+}
+h2 {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.kfc a {
+  color: gray;
+  text-decoration: none;
+}
+.kfc td {
+  width: 300px;
+  padding-left: 70px;
+}
+
+.footer {
+  background-color: white;
+}
+
+.tableFooter {
+  width: 80%;
+  text-align: left;
+  margin-left: 60px;
+  line-height: 25px;
+  float: left;
+}
+.tableFooter thead {
+  color: rgb(46, 44, 44);
+
+  letter-spacing: 4px;
+}
+.tableFooter tbody {
+  color: grey;
+  font-family: courier;
+}
+.tableFooter tbody a {
+  color: black;
+  font-size: 30px;
+}
+/* .iconOfGooglePlay a{
+
+padding: 5px 5px;
+background-color: rgb(80, 80, 177);
+border-radius: 5px;
+color: white !important;
+} */
+.iconOfGooglePlay {
+  float: left;
+  background-color: rgb(133, 133, 245);
+}
+.iconOfGooglePlay a span:nth-child(1) {
+  font-size: 40px;
+}
+
+.iconOfGooglePlay a span:nth-child(2) span:nth-child(1) {
+  font-size: 12px;
+}
+
+.iconOfGooglePlay a span:nth-child(2) span:nth-child(2) {
+  font-size: 30px;
+}
+.Cities {
+  width: 80%;
+  margin: auto;
+  text-decoration: none;
+}
+.copyright {
+  color: gray;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  line-height: 20px;
+}
+.country {
+  float: right;
+  background-color: pink;
+}
+.country img {
+  width: 30%;
+}
+.country :last-child {
+  float: left;
+}
